@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(36, 36, 36);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+.celular{
+    position: absolute;
+    height: 800px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('imagens/celular.png') no-repeat;
+    background-size: contain;
+}
+#tela{
+    position: relative;
+    top: 79px;
+    left: 239px;
+    width: 345px;
+    height: 630px;
+    border-radius: 5px;
+}
+
+.rede-social{
+    display: inline-block;
+    text-align: right;
+    width: 100vw;
+}
+section img{
+    width: 50px;
+    margin: 5vh;
+}
